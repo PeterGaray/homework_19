@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+    <head>
+        <title>About Me</title>
+            <link rel="stylesheet" type="text/css" href="../css/index.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Lato&display=swap" rel="stylesheet">
+            <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    </head>
+<body>
+        <!-- Nav HTML-->
+
+<section class="navigation">
+<div class="top" id="myNavbar">
+       <!-- Bootstrap Header -->
+
+       <!-- I finally got this to show the hamburger menu but I want the menu options on the right before they dissappear into the menu-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="../images/KL.svg" width="40" height="40" class="d-inline-block align-top" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link"id="aboutme" href="https://masterkevin1.github.io/HW-MyFirstLayout/html/index.html">About me <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="projects" href="https://masterkevin1.github.io/homework_17/html/index.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " id="resume" href="https://docs.google.com/document/d/1_xT4mtSbljqcW5Ntloy_-21v0QMP1bsRPOFa7tGdIFA/edit?usp=sharing" tabindex="-1" aria-disabled="true">Resume</a>
+        </li>
+       
+      </ul>
+      <button type="button" class="btn btn-info nav-item" id="myBtn" >Hire Me</button>
+
+      
+      <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form> -->
+    </div>
+  </nav>
+
+
+<!-- <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" class="active" href="#">
+            <img src="../images/KL.svg" width="40" height="40" class="d-inline-block align-top" alt="">
+            Kevin Lugo</a>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+            <a class="nav-link active" id="aboutme" href="https://masterkevin1.github.io/HW-MyFirstLayout/html/index.html">About me</a>
+                </li>
+            <li class="nav-item">
+            <a class="nav-link" id="projects" href="https://masterkevin1.github.io/homework_17/html/index.html">Projects</a>
+                </li>
+            <li class="nav-item">
+            <a class="nav-link" id="resume" href="https://docs.google.com/document/d/1_xT4mtSbljqcW5Ntloy_-21v0QMP1bsRPOFa7tGdIFA/edit?usp=sharing">Resume</a>
+                </li>
+            <button type="button" class="btn btn-info" id="myBtn" >Hire Me</button>
+        </ul>  -->
+
+<!-- Trying to get a hamburger menu to show up on small screens 
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i></a>       -->
+  
+    </nav>
+</div>    
+</section>
+
+<!-- this hero image doesn't shrink along with all the other elements-->
+<!-- There is also some space on the right of the screen that seems to be an unused margin or something. Not sure how to get rid of it-->
+<section class="hero">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Hi, I'm Kevin</h1>
+          <p class="lead">I am a UX researcher dedicated to helping people improve their quality of life by enhancing their experiences</p>
+        </div>
+      </div>
+</section>
+
+<section class="works">
+    <div class="myProjects"><h2>My Projects</h2></div>
+    
+<div class="row">
+    <div class="cardContainer col-lg-4 col-md-4 col-sm-12"><a href="https://docs.google.com/presentation/d/17SZxgqcc9J8GyPwQ5azPS81o3lEp20_dcFI2wQPvBOU/edit?usp=sharing">
+        <div class="card"><img src="../images/routinely7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3>Routinely</h3>
+            <p class="card-text">A concept for a skin care app to be used by both patients and dermatologists to keep track of, manage, and communicate about skin care regimens.</p>
+            </a></div>
+        </div>
+    </div>
+
+    <div class="cardContainer col-lg-4 col-md-4 col-sm-12"><a href="https://docs.google.com/presentation/d/18J_3hbnY8bd0M-CjZgJ-TEKa2t1PIHM5YtlbnJv_Wio/edit?usp=sharing">
+        <div class="card"><img src="../images/cde4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3>California Department of Education</h3>
+            <p class="card-text">A redesign intended in modernizing the site while also improving usability such as simplifying navigation and making it responsive. </p>
+            </a></div>
+      </div>
+    </div>
+
+    <div class="cardContainer col-lg-4 col-md-4 col-sm-12 hah"><a href="https://docs.google.com/presentation/d/18X08UjzNHymV24dKPEIktdw9Ht5c7wBonexrPpAxAp0/edit?usp=sharing">
+        <div class="card"><img src="../images/HaH3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3>Harmony at Home</h3>
+            <p class="card-text">This non-profit's focus is in helping children and families going through tough social issues. The redesign includes desktop and mobile versions.</p>
+            </a></div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="bio">
+    <div class="myBio"><h2>About Me</h2></div>
+
+</section>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+
+
+  <!-- I want to style these forms into two columns
+      I havent tried yet but I think I know how to do it-->
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h4>Contact Kevin</h4>
+    <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="Name" placeholder="Name">
+        <input class="form-control mr-sm-2" type="Name" placeholder="Company Name">
+        <input class="form-control mr-sm-2" type="Number" placeholder="Phone Number">
+        <input class="form-control mr-sm-2" type="text" placeholder="Message">    
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Submit</button>
+    </form>
+  </div>
+
+</body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../js/index.js"></script>
+
+</html>
