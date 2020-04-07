@@ -181,6 +181,11 @@ img, a, p{
     text-decoration: none;
     cursor: pointer;
   }
+  /* .form-control{
+    display: grid;
+    "Name Company"
+    "Number Text"
+  } */
 
 
 /* Media queries for hamburger menu

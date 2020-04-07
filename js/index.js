@@ -28,12 +28,12 @@ window.onclick = function(event) {
 
 // Trying to get this menu to show up in the hamburger menu//
 
-function myFunction() {
-    var x = document.getElementById("myNavbar");
-    if (x.className === "top") {
-      x.className += " responsive";
-    } else {
-      x.className = "top";
-    }
-  }
+// function myFunction() {
+//     var x = document.getElementById("myNavbar");
+//     if (x.className === "top") {
+//       x.className += " responsive";
+//     } else {
+//       x.className = "top";
+//     }
+//   }
 
